@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Profile</title>
+</head>
+<body>
+    <button>Dark mode</button>
+    <!-- Profile Photo
+    The image's alt attribute should be your Slack username.
+    Attribute: data-testid="slackDisplayImage" -->
+    <img src="./profile-img.png" alt="Oluwadurotimi" data-testid="slackDisplayImage">
+
+    <!-- Slack name data-testid="slackUserName" -->
+    <h1 data-testid="slackUserName">Oluwadurotimi</h1>
+
+    <!-- Current Day of the Week:
+    Indicate the current day of the week (e.g., Monday, Tuesday).
+    Attribute: data-testid="currentDayOfTheWeek" -->
+    <h2 data-testid="currentDayOfTheWeek"></h2>
+
+    <!-- Current UTC Time:
+    Display the current UTC time in milliseconds,.
+    Attribute: data-testid="currentUTCTime" -->
+    <h2 data-testid="currentUTCTime"></h2>
+
+    <!-- Track:
+    Mention your track (e.g Frontend).
+    Attribute: data-testid="myTrack" -->
+    <h2 data-testid="myTrack">Front End Track</h2>
+
+    <!-- GitHub URL:
+    Provide a clickable link to your GitHub repository where the source code for this task resides.
+    Attirbute: data-testid=“githubURL” -->
+    <a href=""><button data-testid=“githubURL”>GitHub Repository</button></a>
+</body>
+</html>
